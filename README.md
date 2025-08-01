@@ -90,8 +90,12 @@ numbers.stream().forEach(System.out::println);
 
 **Example:**
 ```java
-List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
-List<Integer> squared = numbers.stream().map(n -> n*n).collect(Collectors.toList());
+List<Integer> numbers = 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+Arrays.asList(1, 2, 3, 4);
+List<Integer> squared = numbers.stream().map(n -> n*n).co
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+llect(Collectors.toList());
 ```
 
 **Quick Assignment:** Using streams, multiply all numbers by 2.
